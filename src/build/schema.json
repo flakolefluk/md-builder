@@ -1,0 +1,20 @@
+{
+    "$schema": "http://json-schema.org/schema",
+    "title": "Custom builder schema",
+    "description": "Custom builder description",
+    "type": "object",
+    "properties": {
+      "log": {
+        "type": "boolean",
+        "description": "If true, log messages",
+        "default": true
+      },
+      "target":{
+        "type": "string",
+        "description": "target to be scheduled after converting markdown"
+      }
+    },
+    "required": ["target"],
+    "additionalProperties": false
+  }
+  
