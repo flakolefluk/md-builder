@@ -35,6 +35,6 @@
   "dependencies": {
     "@types/marked": "^0.7.2",
     "chokidar": "^3.3.0",
-    "marked": "^0.7.0"
+    "marked": "^4.0.10"
   }
 }
